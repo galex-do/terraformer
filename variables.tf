@@ -15,3 +15,9 @@ variable "yc_iam_token" {
   type        = string
   sensitive   = true
 }
+
+variable "pubkey" {
+  description = "ssh public key to allow connection on hosts"
+  type        = string
+  sensitive   = true
+}
